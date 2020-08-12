@@ -1,0 +1,26 @@
+<view class="page">
+  <picker class="picker" bindchange="roomPicker" value="{{roomIndex}}" range="{{roompick}}">{{roompick[roomIndex]}}</picker>
+  <view class="tmp">{{tmp}}℃</view>
+  <view class="info">
+    <view class="main">
+      <text class="name">气体环境</text>/
+      <text class="value" wx:if="{{smog == '安全'}}">{{smog}}</text>
+      <text class="value-d" wx:else>{{smog}}</text>
+    </view>
+  </view>
+  <view class="control">
+    <view class="control-title">远程控制</view>
+    <view class="main">
+      <text class="name">教室照明</text>
+      <switch class="switch" checked="{{light}}" bindchange="lightChange" />
+    </view>
+    <view class="main">
+      <text class="name">教室门窗</text>
+      <switch class="switch" checked="{{door}}" bindchange="doorChange" />
+    </view>
+  </view>
+</view>
+<!-- 首页底部版权信息 -->
+<view class="copyright">
+  <text>Copyright © 2018-2020 Enjoyfun Studio. All Rights Reserved</text>
+</view>

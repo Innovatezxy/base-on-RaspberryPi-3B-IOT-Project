@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/door/door",
+    "pages/my/my",
+    "pages/smartroom/smartroom"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SmartRoom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#36ab60",
+    "backgroundColor": "#f0f0f0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/door/door",
+        "text": "门锁",
+        "iconPath": "images/tabbar_door.png",
+        "selectedIconPath": "images/tabbar_door_s.png"
+      },
+      {
+        "pagePath": "pages/smartroom/smartroom",
+        "text": "教室",
+        "iconPath": "images/tabbar_list.png",
+        "selectedIconPath": "images/tabbar_list_s.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabbar_my.png",
+        "selectedIconPath": "images/tabbar_my_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

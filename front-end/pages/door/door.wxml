@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="tips">请将面部置入取景框内</view>
+  <view class="main">
+    <camera device-position="front" flash="off" style="width: 500rpx; height: 500rpx;" binderror="error"></camera>
+  </view>
+  <view class="button">
+    <button bindtap="openDoor">解锁</button>
+  </view>
+    <view class="fun">
+      <view>性别：{{sex}}</view>
+      <view>年龄：{{age}}</view>
+      <view>情绪：{{emotion}}</view>
+    </view>
+</view>
+<view class="copyright">
+  <text>Copyright © 2018-2020 Enjoyfun Studio. All Rights Reserved</text>
+</view>

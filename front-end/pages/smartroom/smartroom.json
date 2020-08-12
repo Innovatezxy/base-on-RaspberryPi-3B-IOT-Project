@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#f4f4f7",
+  "navigationBarTitleText": "享趣工作室",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#f4f4f7",
+  "enablePullDownRefresh": true
+}

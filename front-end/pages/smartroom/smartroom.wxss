@@ -1,0 +1,95 @@
+Page{
+  width: 100%;
+  background: #f4f4f7;
+  display: flex;
+  flex-direction: column;
+}
+.picker{
+  width: 60%;
+  color: #000;
+  background: #fff;
+  font-size: 38rpx;
+  font-weight: bold;
+  text-align: center;
+  padding: 15rpx 45rpx;
+  margin: 35rpx auto;
+  border-radius: 35rpx;
+  box-shadow: 0 0 5rpx 5rpx rgba(150, 150, 150, 0.233);
+}
+.tmp{
+  width: 60%;
+  color: #29ac60;
+  font-size: 37pt;
+  font-weight: bold;
+  text-align: center;
+  margin: 45rpx auto;
+}
+.humidity{
+  color: #0f8dc7;
+  font-size: 37pt;
+  font-weight: bold;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.control{
+  width: 80%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rpx;
+  box-shadow: 0 0 5rpx 5rpx rgba(150, 150, 150, 0.233);
+  padding: 20rpx 35rpx;
+  margin: 30rpx auto;
+}
+.info .main{
+  width: 80%;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20rpx;
+  box-shadow: 0 0 5rpx 5rpx rgba(150, 150, 150, 0.233);
+  padding: 20rpx 35rpx;
+  margin: 20rpx auto;
+  justify-content: space-between;
+}
+.control .main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.control-title{
+  color: #7a7a7a;
+  font-size: 33rpx;
+  margin: 5rpx auto;
+}
+.name{
+  color: #7a7a7a;
+  font-size: 33rpx;
+  margin: 16rpx 0;
+}
+.value{
+  color: #00b135;
+  font-size: 33rpx;
+  font-weight: bold;
+  margin: 16rpx 0;
+}
+.value-d{
+  color: #f83f3f;
+  font-size: 33rpx;
+  font-weight: bold;
+  margin: 16rpx 0;
+}
+.switch{
+  margin-right: -15rpx;
+}
+/* 底部版权 */
+.copyright{
+  font-size: 22rpx;
+  color: #a1a1a1;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 60rpx;
+}

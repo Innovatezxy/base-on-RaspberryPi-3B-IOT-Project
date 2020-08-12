@@ -1,0 +1,55 @@
+Page{
+  width: 100%;
+  background: #366735;
+}
+.page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tips{
+  color: #fff;
+  font-size: 34rpx;
+  font-weight: bold;
+  margin: 60rpx auto 30rpx;
+}
+.main{
+  display: flex;
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 50rpx;
+  margin: 25rpx auto;
+}
+.main camera{
+  display: block;
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+.button button{
+  width: 490rpx;
+  color: #000;
+  background-color: #fff;
+  margin: 50rpx auto 20rpx;
+  border-radius: 80rpx;
+}
+
+.fun{
+  width: 100%;
+  color: #fff;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 110rpx;
+}
+.copyright{
+  font-size: 22rpx;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 30rpx;
+}
