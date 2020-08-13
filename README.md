@@ -16,9 +16,9 @@ Microsoft人脸识别API
 ![清单](./preview/hardware_list.png)
 
 ### 效果图：
-![人脸识别](./preview/faceAPI.png)
-![IOT管理](./preview/smartroom.png)
-![硬件展示](./preview/hardware_1.jpg)
+![人脸识别](./preview/faceAPI.png)<br>
+![IOT管理](./preview/smartroom.png)<br>
+![硬件展示](./preview/hardware_1.jpg)<br>
 ![硬件展示](./preview/hardware_2.jpg)
 
 ## 联系我：
