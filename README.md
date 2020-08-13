@@ -13,7 +13,7 @@
 Microsoft人脸识别API
 
 ### 硬件清单：
-详见项目论文
+![清单](./preview/hardware_list.png)
 
 ### 效果图：
 详见preview
